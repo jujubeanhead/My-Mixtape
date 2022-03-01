@@ -2,13 +2,18 @@
     font-family: "myFirstFont";
     src: url("gasfont.otf");
     font-smooth: never;
-    webkit-font-smoothing: never;
+    -webkit-font-smoothing: never;
+    -moz-font-smooth: never;
+    -o-font-smooth: never;
 }
 
   @font-face {
     font-family: "mySecondFont";
     src: url("ds-font.otf");
     font-smooth: never;
+    -webkit-font-smoothing: never;
+    -moz-font-smooth: never;
+    -o-font-smooth: never;
 }
 
   html{
@@ -26,6 +31,7 @@
     left: 16px;
     width: 128px;
     image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
   .up img{
