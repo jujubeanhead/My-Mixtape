@@ -1,13 +1,13 @@
   @font-face {
-    font-family: myFirstFont;
-    src: url(gasfont.otf);
+    font-family: "myFirstFont";
+    src: url("gasfont.otf");
     font-smooth: never;
     webkit-font-smoothing: never;
 }
 
   @font-face {
-    font-family: mySecondFont;
-    src: url(ds-font.otf);
+    font-family: "mySecondFont";
+    src: url("ds-font.otf");
     font-smooth: never;
 }
 
@@ -24,7 +24,17 @@
     position: fixed;
     bottom: 16px;
     left: 16px;
+    width: 128px;
+    image-rendering: crisp-edges;
 }
+
+  .up img{
+    width: 200%;
+  }
+
+  .up img:hover{
+    width: 200%;
+  }
 
 .up:hover{
   content: url("images/top2.png");
@@ -36,11 +46,14 @@
     background-color: #63DBF3;
     background-image: url("images/pattern-export.png");
     background-repeat: repeat;
+    margin: 0;
+    padding: 0;
   }
 
   h1{
     font-family: myFirstFont;
-    font-size: 8em;
+    font-size: 6em;
+    margin-top: 0px;
   }
 
   h2{
